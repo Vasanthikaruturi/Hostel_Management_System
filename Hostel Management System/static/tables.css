@@ -1,0 +1,35 @@
+.container {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 20%;
+  background-color: white;
+
+}
+
+.container td, .container th {
+  color: black;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/*.container tr:nth-child(even){background-color:rgb(85, 87, 102,0.5);}
+*/
+.container tr:hover {background-color: #ddd;
+                     color: rgb(111, 111, 114);}
+
+.container th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: cadetblue;
+  color: white;
+  font-size: bold;
+  text-transform: uppercase;
+
+}
+@media (max-width: 768px){
+  form{width:80%;}
+}
